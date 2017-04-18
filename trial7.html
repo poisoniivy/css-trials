@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        h1 {
+            font-family: Arial;
+            margin-left: 10px
+        }
+
+        .innerbox {
+            background-color: #cccccc;
+            margin: 6px 0 0 6px;
+        }
+
+      .longrectangle {
+        background-color: #555555;
+        height: 130px;
+        width: 600px;
+        margin: 10px 0 0 10px;
+      }
+
+      .topbox {
+        display: inline-block;
+        height: 118px;
+        width: 192px;
+      }
+
+      .middlelong {
+        display: inline-block;
+        vertical-align: top;
+        height: 100px;
+        width: 142.5px;
+      }
+
+      .middleshort{
+        display: inline-block;
+        vertical-align: top;
+        height: 75px;
+        width: 142.5px;
+      }
+
+    .bottomshort{
+        display: inline-block;
+        vertical-align: bottom;
+        height: 35px;
+        width: 291px;
+      }
+
+    .bottomtall{
+        display: inline-block;
+        vertical-align: top;
+        height: 118px;
+        width: 291px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <h1>AAAAAHHHHHH</h1>
+
+    <div class="longrectangle" id="top">
+        <div class="topbox innerbox"></div><div class="topbox innerbox"></div><div class="topbox innerbox"></div>
+    </div>
+    <div class="longrectangle" id="middle">
+        <div class="middlelong innerbox"></div><div class="middleshort innerbox"></div><div class="middlelong innerbox"></div><div class="middleshort innerbox"></div>
+    </div>
+    <div class="longrectangle" id="bottom">
+        <div class="bottomshort innerbox"></div><div class="bottomtall innerbox"></div>
+    </div>
+  </body>
+
+</html>
